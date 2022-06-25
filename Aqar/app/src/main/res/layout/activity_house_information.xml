@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.HouseInformationActivity">
+
+    <ImageView
+        android:id="@+id/home_img"
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House title will be displayed here"
+        app:layout_constraintTop_toBottomOf="@id/home_img"
+        android:gravity="start"
+        android:padding="10dp"
+        android:id="@+id/home_title"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="@id/home_title"
+        app:layout_constraintStart_toStartOf="@id/home_title"
+        app:layout_constraintTop_toBottomOf="@id/home_title">
+
+        <TextView
+            android:id="@+id/home_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:paddingLeft="10dp"
+            android:text="House location will be displayed here"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:id="@+id/home_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:paddingLeft="10dp"
+            android:textColor="@color/subscribe_color"
+            android:layout_gravity="center"
+            android:text=" $ 12321"
+            android:textSize="18dp"></TextView>
+
+
+    </LinearLayout>
+</LinearLayout>

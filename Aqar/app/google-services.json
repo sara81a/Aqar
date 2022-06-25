@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "192323456005",
+    "firebase_url": "https://alzheimer-s-app-6027e-default-rtdb.firebaseio.com",
+    "project_id": "alzheimer-s-app-6027e",
+    "storage_bucket": "alzheimer-s-app-6027e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192323456005:android:956c775ec0a738a74ce06c",
+        "android_client_info": {
+          "package_name": "com.myapp.alzheimersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192323456005-1903h6lf5ji6uk9cqftoeg392gipseh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCegKc51tBXw6NVQGxQhvSLXZ2FNw4933M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192323456005-1903h6lf5ji6uk9cqftoeg392gipseh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192323456005:android:feb9cda34b8a5c684ce06c",
+        "android_client_info": {
+          "package_name": "com.myapp.aqar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192323456005-1903h6lf5ji6uk9cqftoeg392gipseh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCegKc51tBXw6NVQGxQhvSLXZ2FNw4933M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192323456005-1903h6lf5ji6uk9cqftoeg392gipseh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

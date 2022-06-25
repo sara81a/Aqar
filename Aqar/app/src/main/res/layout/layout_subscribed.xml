@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/home_img"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/home_img"
+            android:scaleType="centerCrop"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House title will be displayed here"
+            app:layout_constraintTop_toBottomOf="@id/home_img"
+            android:gravity="start"
+            app:layout_constraintStart_toStartOf="@id/home_img"
+            app:layout_constraintEnd_toEndOf="@id/home_img"
+            android:padding="10dp"
+            android:id="@+id/home_title"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toStartOf="@id/home_title"
+            app:layout_constraintTop_toBottomOf="@id/home_title"
+            app:layout_constraintEnd_toEndOf="@id/home_title"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintTop_toBottomOf="@id/home_title"
+            app:layout_constraintStart_toStartOf="@id/home_title"
+            app:layout_constraintEnd_toEndOf="@id/home_title">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="House location will be displayed here"
+                android:paddingLeft="10dp"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:id="@+id/home_location"
+                android:textSize="18dp"></TextView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/subscribe_card"
+                android:visibility="gone"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subscribe"
+                    android:id="@+id/tv_subscribe"
+                    android:textColor="@color/black"
+                    android:padding="10dp"></TextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_subscribe"
+                    android:id="@+id/img_subscribe"
+                    android:layout_gravity="end|center_vertical"></ImageView>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
